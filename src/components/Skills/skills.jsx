@@ -9,7 +9,7 @@ function Skills() {
                 <p>Here&apos;s some of my greatest strengths.</p>
 
                 <Row className="mt-5">
-                    <Col md={6}>
+                    <Col className="mb-5" md={6}>
                         <h3>Skills</h3>
                         <h5 className="d-flex justify-content-between">JavaScript <Badge bg="success">Expert</Badge>
                         </h5>
@@ -30,7 +30,7 @@ function Skills() {
                             bg="success">Expert</Badge></h5>
                         <ProgressBar now={95} label={`${95}%`}/>
                     </Col>
-                    <Col md={6}>
+                    <Col className="mb-5" md={6}>
                         <h3>More Skills</h3>
                         <h5 className="d-flex justify-content-between">Python <Badge bg="success">Advanced</Badge></h5>
                         <ProgressBar now={80} label={`${80}%`} />
